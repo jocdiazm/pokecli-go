@@ -33,6 +33,11 @@ func init() {
 			callback:    commandCatch,
 		},
 
+		"inspect": {
+			name:        "inspect <pokemon name>",
+			description: "Get the stats of a Pokemen with a given name",
+			callback:    commandInspect,
+		},
 		"explore": {
 			name:        "explore <location>",
 			description: "Explores a location",
