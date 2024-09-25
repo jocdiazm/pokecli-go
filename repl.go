@@ -38,6 +38,11 @@ func init() {
 			description: "Get the stats of a Pokemen with a given name",
 			callback:    commandInspect,
 		},
+		"pokedex": {
+			name:        "pokedex",
+			description: "Displays your pokedex",
+			callback:    commandPokedex,
+		},
 		"explore": {
 			name:        "explore <location>",
 			description: "Explores a location",
